@@ -20,10 +20,10 @@ To perform the challenges you will use the dataset `/data/input/IMDB-Movie-Data.
 
 ### :panda_face: **Challenge 1. Warm up**
 We want to create **bins** of movies according to the number of votes they've received. For that matter, we will create a new column named **'bin'** which will tag every movie as follow:
-- From 0 to 1000 ==> 1
-- From 1000 to 10000 ==> 2
-- From 10000 to 100000 ==> 3
-- From 100000 to 1000000 ==> 4
+- From 0 to 999 ==> 1
+- From 1000 to 9999 ==> 2
+- From 10000 to 99999 ==> 3
+- From 100000 to 999999 ==> 4
 - More than 1000000 ==> 5 
 
 ### :panda_face: :panda_face: **Challenge 2. Using axis concept**
