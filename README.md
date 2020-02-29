@@ -27,11 +27,21 @@ We want to create **bins** of movies according to the number of votes they've re
 - More than 1000000 ==> 5 
 
 ### :panda_face: :panda_face: **Challenge 2. Using axis concept**
-...
+We want to know how much is the revenue per minute for every movie.
+
+### :panda_face: :panda_face: :panda_face: **Challenge 3. Using the lambda**
+We want to create a new ranking where we add 1 point if the genre is thriller but subtract 1 point if the genre is comedy.
+
+### :panda_face: :panda_face: :panda_face: :panda_face: **Challenge 4. Now the real stuff**
+We want to know if the sum of the ASCII value of every character of the movie title divided by the number of votes retrieve a prime number...remember, prime numbers are integers.
+
+### :panda_face: :panda_face: :panda_face: :panda_face: :panda_face: **Challenge 5. And finally some fantasy**
+Feel free to propose your own ranking based in aggregations of at least 3 columns of the dataset.
+
+### :panda_face: :panda_face: :panda_face: :panda_face: :panda_face: :panda_face: **Challenge 6. Freaky bonus**
+We want to know which movies might have hidden paterns in their description. A way to know that is finding those movies which the sum of all numeric values of the string description hash (SHA256) are between their revenue and their number of votes.   
+
 
 ---
 
-> References:
-- [Apply a function to every row in a pandas dataframe](http://jonathansoma.com/lede/foundations/classes/pandas%20columns%20and%20functions/apply-a-function-to-every-row-in-a-pandas-dataframe/)
-- [Apply and Lambda usage in pandas](https://towardsdatascience.com/apply-and-lambda-usage-in-pandas-b13a1ea037f7)
 
