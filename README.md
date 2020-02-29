@@ -16,7 +16,7 @@ df.apply(lambda x: func( x['col1'], x['col2']), axis=1 )
 > This will allow you to create pretty much any logic, I promise!!! 
 
 ### :file_folder: **Data**
-To perform the challenges you will use the dataset `/data/imput/IMDB-Movie-Data.csv`
+To perform the challenges you will use the dataset `/data/input/IMDB-Movie-Data.csv`
 
 ### :panda_face: **Challenge 1. Warm up**
 We want to create **bins** of movies according to the number of votes they've received. For that matter, we will create a new column named **'bin'** which will tag every movie as follow:
